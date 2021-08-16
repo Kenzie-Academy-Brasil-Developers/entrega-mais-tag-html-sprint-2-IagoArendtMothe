@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>tag aside</title>
+
+</head>
+<body>
+        <!--<div class="wrapper">
+        <div class="content" role="main">-->
+    <header>
+        <figure>
+            <img src="imgs/foto-eu.jpeg" alt="minhaFoto">
+            <figcaption><i>Iago Arendt Mothé</i></figcaption>
+        </figure>
+        <h1>Autobiografia de coisas aleatórias</h1>
+    </header>
+
+    <section>
+        <main>
+            <div class="conteudo">
+                <h2>
+                    <i>Geral</i>
+                </h2>
+                <p>
+                    &nbsp; Nasci em Macaé/RJ porém me mudei ainda pequeno, com 4 anos, para Brasilia, 
+                    depois com 8 para onde moro atualmente, que é Catanduva/SP. Porém mesmo com 
+                    tanto tempo longe ainda mantive um pouco do sotaque carioca
+                </p>
+                <p>
+                    &nbsp; Quando criança pensava em seguir carreira  militar mas após fazer um curso 
+                    técnico de informática na adolescencia decidi seguir na área de tecnologia
+                </p>
+                <p>
+                    &nbsp; Iniciei um curso superior de Gestão de TI mas acabei trancando por ser um 
+                    curso muito focado em gestão e administração e haver pouco conteúdo prático 
+                    de tecnologia e programação
+                </p>
+                <hr>
+                <details class="detailsCoisas">
+                    <summary>
+                        Coisas que já fiz
+                    </summary>
+                    <p>
+                        &gt; Já toquei teclado, flauta e violão mas não segui praticando nenhum instrumento, 
+                        futuramente quando tiver mais tempo talvez volte a praticar violão
+                    </p>
+                    <p>
+                        &gt; Também já fiz parte de motoclube e costumava viajar bastante de moto mas acabei 
+                        saindo por diversos motivos, mas ainda gosto muito de viajar e planejo continuar 
+                        viajando de moto no futuro
+                    </p>
+                    <p>
+                        &gt; Na empresa onde trabalhava antigamente fiquei por quase 4 anos no setor de suporte 
+                        do sistema da empresa e depois fui transferido para o setor de desenvolvimento 
+                        onde atuei principalmente na conversão do sistema para Oracle APEX utilizando a 
+                        linguagem PL/SQL e Javascript, nesta época tive que pesquisar e aprender muito por 
+                        conta então foi bem corrido
+                    </p>
+                </details>
+                <hr>
+                <details class="detailsGostos">
+                    <summary>
+                        Gostos
+                    </summary>
+                    <p>
+                        &gt; Gosto muito de sair entre amigos pra festas, bares e shows na cidade ou cidades vizinhas 
+                        mas também curto muito programas mais caseiros
+                    </p>
+                    <p>
+                        &gt; Quando estou atoa em casa costumo jogar ou assistir algum filme, série ou anime que tenham me interessado
+                    </p>
+                    <p>
+                        &gt; Sou apaixonado por música e constantemente procuro escutar estilos ou cantores/bandas diferentes, 
+                        por conta disto meus amigos constumam evitar que eu escolha as musicas nos churrascos
+                    </p>
+                </details>
+            </div>
+        </main>
+        <aside>
+            <ul> <strong><i>Alguns dos melhores jogos</i></strong>
+                <li>Fallout New Vegas</li>
+                <li>TT Warhammer 2</li>
+                <li>The Witcher 3</li>
+                <li>Rainbow Six Siege</li>
+                <li>Insurgency: Sandstorm</li>
+            </ul>
+
+            <ol> <strong><i>Bebidas favoritas</i></strong>
+                <li>Vinho</li>
+                <li>Cerveja</li>
+                <li>Café</li>
+                <li>Caldo de cana</li>
+                <li>Suco de laranja</li>
+            </ol>
+        </aside>
+    </section>
+    
+    <footer>
+        <div>
+            <p>
+                Projeto feito tendo como base o portfolio feito anteriormente no <a href="https://glitch.com/edit/#!/iago-arendt-mothe-portfolio-basico" target="_blank">Glitch</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<style>
+    body {
+        background-color: #5200b8;
+    }
+    header {
+        height: 26vh;
+        background-color: #5200b8;
+        display: flex;
+    }
+    header h1{
+        margin-top: 10vh;
+        height: 13vh;
+        text-shadow: 1px 1px 2px ivory;
+    }
+    figure img {
+        width: 12vw;
+        height: 18vh;
+    }
+    figcaption {
+        font-size: 3vh;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        height: 95vh;
+        background-color: #6800eb; /*6800eb - 5f00d6*/
+        flex: 1;
+        margin-right: 10px;
+    }
+    main .conteudo {
+        margin-left: 20px;
+    }
+    main p {
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+    hr {
+        margin-right: 20px;
+    }
+    .conteudo p{
+        font-style: italic;
+        font-weight: 600;
+    }
+    summary {
+        margin-top: 2vh;
+        font-size: 20px;
+    }
+    aside {
+        height: 95vh;
+        background-color: #5f00d6;
+        width: 20vw;
+    }
+    aside p {
+        margin-left: 15px;
+    }
+    aside li {
+        margin-left: 30px;
+    }
+    footer {
+        height: 10vh;
+        background-color: #5200b8;
+    }
+    footer p {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    footer a{
+        color: ivory;
+    }
+</style>
